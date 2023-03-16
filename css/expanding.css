@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+body{
+    font-family: 'Monsieur La Doulaise', cursive;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+
+
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+}
+
+.panel{
+    margin: 10px;
+    height: 80vh;
+    border-radius: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+    position: relative;
+    transition: all 1s ease-in;
+}
+
+
+.panel h3{
+    font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+}
+
+.panel.active{
+    flex: 10;
+}
+
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.5s ease-in 0.5s;
+}
+
+@media (max-width: 480px) {
+    .container{
+        width: 100 vw;
+    }
+
+    .panel: nth-of-type(4),
+    .panel: nth-of-type(5) {
+        display: none;
+    }
+}

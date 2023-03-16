@@ -1,0 +1,26 @@
+
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://3.bp.blogspot.com/-T7rFstjlZ5Y/V-biD0P5OhI/AAAAAAAAC18/dIvGaZN8NGUoH8i1RUZIag29jTM-zy7kQCLcB/s1600/Sir%2BLawrence%2BAlma-Tadema%2BThe%2BRoses%2Bof%2BHeliogabalus%252C%2B1888%2B%2528detail%2529%2B%252810%2529.jpg');
+    background-repeat: none;
+    background-size: cover;
+    filter: blur(10px);
+    position: absolute;
+    z-index: -1;
+}
+
+.loading-text {
+    font-size: 50px;
+    color: rgb(250, 210, 225);
+}
