@@ -76,7 +76,7 @@ body {
 
 .container.show-nav + nav li {
     transform: translateX(0);
-    transition-delay: .5s;
+    transition-delay: 0.5s;
 }
 
 
@@ -109,7 +109,7 @@ nav ul li i {
 
 nav ul li + li {
     margin-left: 15px;
-    transform: translateX(-150%);
+    transform: translateX(-150%)
 }
 
 
