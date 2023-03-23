@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lato&family=Rubik+Iso&display=swap');
-
-
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap');
 
 body {
     display: flex;
@@ -30,11 +23,9 @@ body {
 
 
 .link a {
-    font-family: 'Gloock', serif;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Rubik Iso', cursive;
+    
     text-decoration: none;
-    color: green;
+    color: pink;
     justify-content: space-between;
 }
 
