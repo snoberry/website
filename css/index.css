@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,200;1,400&display=swap');
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital@1&display=swap');
+
 
 body {
     display: flex;
@@ -23,10 +25,9 @@ body {
 
 
 .link a {
-    font-family: 'Great Vibes', cursive;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: pink;
+    color: rgb(58, 90, 64);
     justify-content: space-between;
 }
 
