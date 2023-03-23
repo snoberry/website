@@ -1,5 +1,5 @@
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital@1&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital@1&display=swap');
 
 
 body {
@@ -29,6 +29,7 @@ body {
     text-decoration: none;
     color: rgb(58, 90, 64);
     justify-content: space-between;
+    font-size: 30px;
 }
 
 
