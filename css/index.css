@@ -13,10 +13,6 @@ body {
     justify-content: center;
     margin: 0;
 }
-
-
-
-
 .bg {
     display: flex;
     flex-direction: column;
@@ -24,7 +20,7 @@ body {
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-image: url('');
+    background-image: url('https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F11%2Fsza-sos-album-cover-artwork-reveal-image-announcement-0.jpg?w=960&cbr=1&q=90&fit=max');
     background-position: center;
     background-repeat;
     background-size: cover;
